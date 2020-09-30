@@ -1,6 +1,7 @@
 from flask import Flask,render_template,url_for,request
 from nltk.corpus import stopwords
 import nltk
+nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 
 app = Flask(__name__)
