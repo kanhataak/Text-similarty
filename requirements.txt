@@ -13,7 +13,7 @@ MarkupSafe==1.1.1
 mccabe==0.6.1
 missingno==0.4.2
 nltk==3.5
-nltk
+nltk.txt
 numba==0.49.1
 pandas-profiling==2.8.0
 phik==0.10.0
