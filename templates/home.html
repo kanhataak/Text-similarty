@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"> -->
+</head>
+<body>
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+			<h2 style="color: blue">Natural Language Processing with Flask</h2>
+			<h3 style="color: lightblue">Degree of similarity between the two text</h3>
+		<br>
+		<p>Write Your first Paragraph Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message1" rows="6" cols="60"></textarea>
+		<br>
+		<p>Write Your Second Paragraph Here</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message2" rows="6" cols="60"></textarea>
+		<br>
+
+		<input type="submit" class="btn-info">
+		
+	</form>
+		<p style="color: #fff">{{ prediction_text }}<p>
+        <p>Developed by Kanhaiya</p>
+	</div>
+
+</body>
+</html>

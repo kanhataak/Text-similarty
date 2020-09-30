@@ -1,0 +1,26 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	/*background-color:#f4f3f3;*/
+	background: linear-gradient(50deg, yellow,darkred);
+}
+
+.ml-container{
+			text-align:center;
+			height:100px;
+			width:100%;
+			margin:0px;
+		}
+
+.btn-info {
+	height:40px;
+	width:100px;
+	text-align: center;
+	background-color: #0040ff;
+	font-size: 15px;
+	border-radius: 10px;
+	color: #fff;
+	}
+
+.btn-info:hover {background: #0b7dda;}
+
